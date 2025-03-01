@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 import uvicorn
 import re
 
-load_dotenv()
+load_dotenv(override=True)
 
 # Configuration
 TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
