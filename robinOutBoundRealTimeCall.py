@@ -21,7 +21,7 @@ TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
 TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
 PHONE_NUMBER_FROM = "+17603321951"
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-raw_domain = "de00-2800-e2-6880-148d-219a-c923-92fa-14e2.ngrok-free.app"
+raw_domain = "1891-2800-e2-6880-148d-3d67-4cbe-1026-5eb5.ngrok-free.app"
 DOMAIN = re.sub(r'(^\w+:|^)\/\/|\/+$', '', raw_domain) # Strip protocols and trailing slashes from DOMAIN
 
 PORT = int(6060)
